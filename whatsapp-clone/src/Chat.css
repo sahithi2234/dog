@@ -1,0 +1,87 @@
+.chat-whole{
+    flex:0.7;
+    display:flex;
+    flex-direction: column;
+}
+.chat-header{
+    display: flex;
+   padding:10px;
+   align-content: center;
+   border-bottom: 1px solid #f6f6f6;
+   background-color: #e7e7e7;
+}
+.chat-header-info{
+    flex:1;
+    line-height: 5px;
+    padding-left: 20px;
+}
+.chat-header-info>p{
+    color:grey;
+}
+.chat-header-right{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+.chat-body{
+    display: flex;
+    flex: 1;
+    /*background-color: black;*/
+    background-image: url("E:\\whatsapp.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+    overflow: hidden;
+}
+.chat-msg{
+    padding: 10px;
+    background-color:#ffffff;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    font-size: 16px;
+    position: relative;
+}
+.chat-msg-user{
+    font-size: xx-small;
+    position: absolute;
+    top: -13px;
+    font-weight: 800;
+}
+.chat-msg-reciever{
+    margin-left: auto;
+    background-color: rgb(190, 243, 190);
+}
+.chat-msg-time{
+    font-size: xx-small;
+    margin-left: 10px;
+}
+.chat-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:62px;
+    background-color: #e7e7e7;
+}
+.chat-footer>form{
+   
+    flex:1;
+    display: flex;
+    
+}
+.chat-footer>form>input{
+    flex:1;
+    border-radius: 30px;
+    border:none;
+    padding: 10px;
+}
+.chat-footer>form>button{
+    display: none;
+}
+.chat-footer>.MuiSvgIcon-root{
+    color:grey;
+    padding:10px;
+}
+
+

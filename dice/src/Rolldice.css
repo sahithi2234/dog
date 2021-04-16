@@ -1,0 +1,15 @@
+.Rolldice{
+    text-align: center;
+}
+.DS{
+    display: flex;
+    justify-content: center;}   
+.Rolldice button{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color:white;
+    margin: 60px;
+    border-radius: 15px;;
+
+}

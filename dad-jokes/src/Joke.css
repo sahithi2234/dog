@@ -1,0 +1,5 @@
+.SJoke{
+    display: flex;
+    place-items: center;
+    border: 2px solid rgb(252, 252, 252);
+}

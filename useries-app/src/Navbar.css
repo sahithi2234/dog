@@ -1,0 +1,26 @@
+.logo{
+  
+    font-style: italic;
+    font-family:cursive;
+   width:fit-content;
+   height:fit-content;
+}
+.logo>span{
+    font-size: 60px;
+    font-style:normal;
+    
+}
+
+
+.navbar{
+    margin:0;
+    background-color:#66292c;
+   
+}
+.nav-item{
+    margin-top: 30px;
+    color:white;
+    font-size:20px;
+    font-weight:normal;
+   
+}

@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  background-color: black;
+  height: 700px;
+  margin:0;
+}
+.App>h1,h3,button{
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+   color:white;
+}
+.App>button{
+  color:white;
+  background-color: green;
+  border: none;
+  height:40px;
+  width:150px;
+}
